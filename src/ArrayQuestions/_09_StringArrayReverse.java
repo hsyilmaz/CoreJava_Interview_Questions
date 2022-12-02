@@ -15,5 +15,16 @@ public class _09_StringArrayReverse {
         String[] reverse=set.toArray(new String[0]);
         System.out.println(Arrays.toString(reverse));
 
+    //or:
+
+        String [] c={"exiting", "quite", "is", "Java", "Learning"};
+        String [] Reverse = new String [c.length];
+        int j=0;
+        for(int i=c.length-1; i>=0; i--)
+            Reverse[j++]=c[i];
+        System.out.println(Arrays.toString(Reverse));
+        
+        
+
     }
 }

@@ -9,6 +9,9 @@ public class _04_sortingArray {
         int[] x={5, 8, 9, 12, 1, 23};
         System.out.println(Arrays.toString(ascending(x)));
         System.out.println(Arrays.toString(descending(x)));
+
+        Arrays.sort(x);
+        System.out.println(Arrays.toString(x));
     }
 
     public static int[] ascending (int[] x) {

@@ -8,10 +8,11 @@ public class _01_sumOfArray {
         int[] array={22, 88, 56, 35, 46};
 
         System.out.println(arrayTotal(array));
+        System.out.println(Sum_mthd(array));
+        System.out.println(Sum_mthd2(array));
 
 
     }
-
     public static int arrayTotal(int[] array) {
         int total=0;
 
@@ -21,4 +22,19 @@ public class _01_sumOfArray {
 
         return total;
     }
+    public static int Sum_mthd(int [] Arr){
+        int sum=0;
+        for(int i:Arr)
+            sum+=i;
+
+        return sum;
+    }
+    public static int Sum_mthd2(int [] Arr){
+        int sum=0;
+        for(int i=0; i< Arr.length; i++)
+            sum+=Arr[i];
+
+        return sum;
+    }
+
 }

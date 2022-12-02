@@ -5,14 +5,12 @@ public class _09_reverseNumberWithMathOperators {
         // Reverse a given number with math operators
         int number=56898;
         int reverse=0;
-        int remainder=0;
 
         do {
-            remainder=number%10;
-            reverse=reverse*10+remainder;
-            number=number/10;
-        } while (number > 0);
-        System.out.println(reverse);
-
+            reverse=reverse*10+number%10;
+            number/=10;
+            }
+        while(number>0);
+        System.out.println("reverse = " + reverse);
     }
 }

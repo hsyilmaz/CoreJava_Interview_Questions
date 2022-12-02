@@ -2,7 +2,7 @@ package MathQuestions;
 
 public class _02_swabbingTwoElements {
     public static void main(String[] args) {
-        //Swap the variables with and with out using Temp variable
+        //Swap the variables with and without using Temp variable
 
         int x=10;
         int y=19;

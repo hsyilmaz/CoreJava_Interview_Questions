@@ -7,17 +7,12 @@ public class _01_multiplicationWithoutMultiply {
 
         System.out.println(multiply(40, 30));
     }
-
-    public static int multiply(int x, int y) {
-        int result=0;
-
-        for (int i = 0; i < y; i++) {
-            result=result+x;
-
-        }
-
-
-        return result;
+    public static int multiply(int j, int k)
+    {
+        int total=0;
+        for(int i=0; i<j; i++)
+            total+=k;
+        return total;
     }
 
 

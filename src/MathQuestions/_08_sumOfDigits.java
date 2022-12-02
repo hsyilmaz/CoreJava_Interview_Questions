@@ -6,12 +6,11 @@ public class _08_sumOfDigits {
         int number=1346;
         int sum=0;
 
-        while (number > 0) {
-            sum += number % 10;
-            number = number / 10;
+        while(number>0){
+            sum+=number%10;
+            number/=10;
         }
-        System.out.println(sum);
-
+        System.out.println("sum = " + sum);
 
 
     }

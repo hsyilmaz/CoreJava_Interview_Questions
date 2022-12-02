@@ -1,8 +1,6 @@
 package ArrayQuestions;
 
-import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class _07_secondSmallestNumber {
     //Find 2nd smallest number
@@ -16,6 +14,11 @@ public class _07_secondSmallestNumber {
         Object[] a2=new Object[s.size()];
         s.toArray(a2);
         System.out.println(a2[1]);
+
+        //or, in short:
+        Arrays.sort(a);
+        System.out.println(a2[1]);
+
     }
 
 }
