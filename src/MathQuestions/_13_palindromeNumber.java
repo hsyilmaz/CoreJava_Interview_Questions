@@ -11,8 +11,9 @@ public class _13_palindromeNumber {
         while (temp>0)
         {
             reverse=(reverse*10)+(temp%10);
-            temp=temp/10;
+            temp/=10;
         }
+
 
         System.out.println(number == reverse);
 //                      or:

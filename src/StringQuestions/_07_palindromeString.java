@@ -10,8 +10,9 @@ public class _07_palindromeString {
         for (int i = s.length()-1; i >=0; i--) {
             reverse+=s.charAt(i);
         }
+        System.out.println(s.equals(reverse));
 
-        if (s.equals(reverse)) System.out.println(true);
-        else System.out.println(false);
+//        if (s.equals(reverse)) System.out.println(true);
+//        else System.out.println(false);
     }
 }

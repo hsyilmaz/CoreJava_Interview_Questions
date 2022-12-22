@@ -8,11 +8,14 @@ public class _11_sumUpDigits {
 
         int total=0;
         String strNumber=Integer.toString(number);
-        //String strNum = ""+number;
+        //String strNumber=String.valueOf(number);
+        //String strNumber = ""+number;
 
         for (int i = 0; i < strNumber.length(); i++)
             total=total+Integer.parseInt(strNumber.substring(i, i+1));
             //total=total+Integer.parseInt(String.valueOf(strNumber.charAt(i)));
+
+
 
         do
         {

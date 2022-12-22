@@ -16,14 +16,10 @@ public class _06_countOfCharacters {
         int count=1;
         String print="";
 
-        for (int i = 0; i < c.length-1; i++) {
+        for (int i = 0; i < c.length-1; i++)
             if (c[i] == c[i+1]) count++;
-            else {
-                print=print+c[i]+count; count=1;
-            }
+            else {print=print+c[i]+count; count=1;}
 
-
-        }
         System.out.println(print);
 
     }
